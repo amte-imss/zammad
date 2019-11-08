@@ -1,0 +1,23 @@
+tr.estado_valido td{
+    color: #3c763d;
+    background-color: #dff0d8 !important;
+    border-color: #d6e9c6;
+}
+
+tr.estado_no_valido td{
+    color: #a94442;
+    background-color: #f2dede !important;
+    border-color: #ebccd1;
+}
+
+tr.estado_normal td{
+    color: #8a6d3b;
+    background-color: #fcf8e3 !important;
+    border-color: #faebcc;
+}
+
+
+.sipimss-helper:hover{
+    cursor: pointer;
+    color: grey;
+}

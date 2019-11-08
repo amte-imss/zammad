@@ -1,0 +1,15 @@
+se carga en el siguiente orden las bibliotecas para js grid
+<?php echo css("js_export_grid/jsgrid-1.5.3/jsgrid.min.css"); ?>
+<?php echo css("js_export_grid/jsgrid-1.5.3/jsgrid-theme.min.css"); ?>
+<?php echo js("js_export_grid/jsgrid-1.5.3/jsgrid.js"); ?>
+
+
+se cargara en el siguiente orden las bibliotecas para exportar
+
+<?php echo js("js_export_grid/export/canvas-datagrid.js"); ?>
+<?php echo js("js_export_grid/export/Blob.js"); ?>
+<?php echo js("js_export_grid/export/FileSaver.js"); ?>
+<?php echo js("js_export_grid/export/xlsx.full.min.js"); ?>
+
+Complemento para exportar y exportar los datos del jsgrid
+<?php echo js("js_export_grid/complemento_export_grid.js"); ?>
